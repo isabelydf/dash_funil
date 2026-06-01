@@ -18,11 +18,21 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
+# Dicionário de tradução e um guia de estilo
+# Mapeamento de colunas comuns para padronização
 
+COLUMN_MAP= {
 
-
-
-
-
-
+    'data': ['data', 'date', 'dt'],
+    'supervisor': ['supervisor', 'supervisora'],
+    'consultor': ['consultor', 'vendedor'],
+    'lead': ['lead', 'leads'],
+    'prioridade': ['prioridade'],
+    'repasse': ['repasse'],
+    'cliente': ["nome do cliente", "cliente", "customer", "nome_cliente", "nome cliente"],
+    'telefone': ['telefone', 'celular', 'contato'],
+    'status': ['status', 'etapa', 'fase'],
+    'etapa': ['etapa', 'fase'],
+    'categoria': ['categoria', 'tipo']
+}
 
