@@ -36,3 +36,20 @@ COLUMN_MAP= {
     'categoria': ['categoria', 'tipo']
 }
 
+STATUS_COLORS = {
+    'venda': '#02f66c',
+    'negociação': '#59b6b1',
+    'tratativa': '#59b6b1',
+    'prospecção': '#59b6b1',
+    'aguardando dados': '#59b6b1',
+    'analise realizada': '#6ce175',
+    'quer emprestimo': '#e74c3c',
+    'sem interesse': '#e74c3c',
+    'não localizado': '#e74c3c',
+    'tel.inválido': '#e74c3c',
+    'bloqueado': '#e74c3c',
+    'sem financiamento': '#e74c3c',
+    'parcelas baixas': '#e74c3c',
+    'outra assessoria/reclame aqui': '#e74c3c'
+}
+
